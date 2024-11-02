@@ -1,0 +1,102 @@
+.header-wrapper {
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .left-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-wrapper > .left-column > .logo img {
+    width: 180px;
+    margin: 20px 15px;
+}
+
+.header-wrapper > .left-column > .navbar {
+    padding-left: 20px;
+}
+
+.header-wrapper > .left-column > .navbar > .title h4 {
+    color: #e7cd6a;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.header-wrapper > .left-column > .navbar > .links {
+    margin-bottom: 15px;
+}
+
+.header-wrapper > .left-column > .navbar > .links a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 1px;
+    transition: 0.1s;
+}
+
+.header-wrapper > .left-column > .navbar > .links a:hover {
+    border-bottom: 3px solid #3dda7e;
+}
+
+.header-wrapper > .left-column > .dropdown-spark > #spark {
+    font-family: 'Public sans', sans-serif;
+    font-size: 20px;
+    color: #adadad;
+    background-color: #111111;
+    border: none;
+    margin-left: 10px;
+    margin-top: 14px;
+    padding-right: 5px;
+    transition: 0.3s;
+}
+
+.header-wrapper > .left-column > .dropdown-spark > #spark:hover {
+    color: #ffffff;
+}
+
+.header-wrapper > .left-column > .dropdown-spark > #spark:focus {
+    outline: none;
+}
+
+.header-wrapper > .right-column > .header-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .right-column > .header-buttons > .icon i {
+    color:  #adadad;
+    font-size: 2em;
+    margin: 20px;
+}
+
+.header-wrapper > .right-column > .header-buttons > .buttons button {
+    font-family: 'Public sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #36383f;
+    border: #36383f;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.header-wrapper > .right-column > .header-buttons > .buttons button:hover {
+    filter: brightness(130%); 
+}
+
+.header-wrapper > .right-column > .header-buttons > .buttons button i {
+    color: #3dda7e;
+    font-size: 1.1em;
+}

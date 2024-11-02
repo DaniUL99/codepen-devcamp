@@ -1,0 +1,75 @@
+.grad {
+    background-image: linear-gradient(to right, #393c44 , #191a1d);
+}
+
+.page-container > .grad {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.page-container > .grad> .left-column {
+    margin: 50px 50px;
+}
+
+.page-container > .grad> .left-column h1 {
+    font-weight: 100;
+}
+
+.page-container > .grad> .left-column h1 span {
+    font-weight: bold;
+}
+
+.page-container > .grad> .left-column h2 {
+    font-weight: 200;
+    line-height: 150%;
+    font-size: 30px;
+    opacity: 70%;
+}
+
+.page-container > .grad> .left-column > .buttons > #signup {
+    font-family: 'Public sans', sans-serif;
+    font-size: 2em;
+    color: #111111;
+    background-color: #3dda7e;
+    border: #36383f;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;    
+    transition: 0.3s;
+}
+
+.page-container > .grad> .left-column > .buttons > #signup:hover {
+    filter: brightness(80%);
+}
+
+.page-container > .grad> .left-column > .buttons > #learn {
+    font-family: 'Public sans', sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #111111;
+    border: #36383f;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.page-container > .grad> .left-column > .buttons > #learn:hover {
+    filter: brightness(150%);
+}
+
+.page-container > .grad> .right-column h2 {
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.page-container > .grad> .right-column > h2 span {
+    color: #5bf4ff;
+}
+
+.page-container > .grad> .right-column img {
+    width: 100%;
+    box-shadow: -10px -10px 80px -15px rgba(0,0,0,0.75);
+}

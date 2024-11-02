@@ -1,0 +1,30 @@
+.footer-wrapper > .links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-wrapper > .links-wrapper a {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #36383f;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border: 1px solid #797777;
+    padding: 20px 0px;
+    transition: 0.3s;
+}
+
+.footer-wrapper > .links-wrapper a:hover {
+    filter: brightness(130%);
+}
+
+.footer-wrapper > .links-wrapper a span {
+    font-family: 'Passion One', sans-serif;
+    font-size: 30px;
+    margin-left: 4px;
+}
